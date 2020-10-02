@@ -1,0 +1,45 @@
+.chartsview__navigation {
+    width: 90%;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.chartsview__navigation ul {
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: var(--secondary-text-color);
+}
+
+.chartsview__navigation .nav-item .nav-link {
+    color: var(--secondary-text-color);
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.chartsview__navigation .nav-item .active {
+    color: #237a8d;
+    font-weight: 600;
+}
+
+.chartsview__navigation .nav-item .nav-link:hover {
+    color: #237a8d!important;
+    transition: ease-in 0.2s;
+}
+
+@media (max-width: 991px) {
+    .chartsview__navigation ul {
+        width: 100%!important;
+    }
+}

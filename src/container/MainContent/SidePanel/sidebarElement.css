@@ -1,0 +1,23 @@
+.sidebarElement {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 15px 25px;
+    margin-bottom: 25px;
+    color: var(--primary-text-color)!important;
+}
+
+.sidebarElement:hover {
+    background-color: #0e101e;
+    color: #3f9f90;
+    transition: color 100ms ease-out;
+}
+
+.sidebarElement>svg {
+    font-size: 2em;
+}
+
+.sidebarOption--active {
+    color: #4effa1!important;
+    background-color: #0e101e;
+}

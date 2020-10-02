@@ -1,0 +1,15 @@
+.areachart canvas {
+    width: 600px;
+    height: 250px;
+}
+
+.areachart .header {
+    font-size: 1.1rem;
+}
+
+@media (max-width: 800px) {
+    .areachart canvas {
+        display: none;
+        width: 450px;
+    }
+}

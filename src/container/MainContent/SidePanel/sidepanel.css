@@ -1,0 +1,9 @@
+.sidepanel {
+    margin-top: 60px;
+}
+
+@media (max-width: 800px) {
+    .sidepanel {
+        display: none;
+    }
+}
